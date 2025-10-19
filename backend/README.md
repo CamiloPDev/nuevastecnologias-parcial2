@@ -2,12 +2,15 @@
 
 ## Estado Actual ✅
 
-### Punto 1.3 Completado
-- ✅ Express server configurado
-- ✅ CORS y middleware básico configurado
-- ✅ Conexión a BD establecida (Clever Cloud MySQL)
-- ✅ Endpoint de salud funcionando
-- ✅ Datos iniciales insertados
+### Puntos Completados
+- ✅ **1.3** Express server configurado
+- ✅ **1.3** CORS y middleware básico configurado
+- ✅ **1.3** Conexión a BD establecida (Clever Cloud MySQL)
+- ✅ **1.3** Endpoint de salud funcionando
+- ✅ **1.3** Datos iniciales insertados
+- ✅ **2.1** Modelos y Base (Usuario, Producto, Pedido, Zona)
+- ✅ **2.2** Autenticación (JWT, login, registro, middleware)
+- ✅ **2.3** API de Productos (CRUD completo con permisos)
 
 ## Endpoints Disponibles
 
@@ -74,9 +77,9 @@ Respuesta:
 
 ## Próximos Pasos (Fase 2)
 
-- [ ] 2.1 Modelos y Base (30 min)
-- [ ] 2.2 Autenticación (30 min)
-- [ ] 2.3 API de Productos (20 min)
+- ✅ 2.1 Modelos y Base (30 min)
+- ✅ 2.2 Autenticación (30 min)
+- ✅ 2.3 API de Productos (20 min)
 - [ ] 2.4 API de Pedidos - Tendero (40 min)
 - [ ] 2.5 API de Pedidos - Plataforma (30 min)
 - [ ] 2.6 API de Pedidos - Proveedor (20 min)

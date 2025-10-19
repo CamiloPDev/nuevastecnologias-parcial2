@@ -94,9 +94,10 @@ app.get('/api/test', async (req, res) => {
     }
 });
 
-// Rutas principales (se agregarán en siguientes fases)
-// app.use('/api/auth', require('./routes/auth'));
-// app.use('/api/productos', require('./routes/productos'));
+// Rutas principales
+app.use('/api/auth', require('./routes/auth'));
+app.use('/api/productos', require('./routes/productos'));
+app.use('/api/zonas', require('./routes/zonas'));
 // app.use('/api/pedidos', require('./routes/pedidos'));
 // app.use('/api/usuarios', require('./routes/usuarios'));
 
